@@ -35,7 +35,6 @@ fields:
     required: true
   default: https://snipcart-hugo-forestry.netlify.com
 pages:
-- content/flank_dang.md
 - content/products/black_jack.md
 - content/products/blue-cheese.md
 - content/products/camembert.md
