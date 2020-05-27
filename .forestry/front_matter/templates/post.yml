@@ -1,4 +1,46 @@
 ---
 label: Post
 hide_body: false
-fields: []
+fields:
+- name: i_m_going_back_and_
+  type: text
+  config:
+    required: false
+  label: 'I’m going back and '
+  description: This is supposed to be a desc
+  hidden: false
+- name: the_human-friendly_label_shown_above_the_input_field_
+  type: blocks
+  label: The human-friendly label shown above the input field.
+  template_types: []
+  config:
+    min: 
+    max: 
+  description: "<strong>Help text that appears above the field (it looks exactly like
+    this).</strong>"
+- name: help_text_that_appears_above_the_field__it_looks_exactly_like_this__
+  type: boolean
+  label: Help text that appears above the field (it looks exactly like this).
+  description: <a href="" title="" target="_blank"><em>Help text that appears above
+    the field (it looks exactly like this).</em></a>
+- name: appears_above_the_field__it_looks_exactly_like_this__
+  type: image_gallery
+  config: {}
+  label: bove the field (it looks exactly like this).
+  description: Help text that appears above the field (it looks exactly like this).
+- name: s_above_the_field__it_looks_exactly_like_this__
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Help text that appears above the field (it looks exactly like this).
+  description: Help text that appears above the field (it looks exactly like this).
+- name: field__it_looks_exactly_like_this__
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Help text that appears above the field (it looks exactly like this).
+  description: Above and beyond
